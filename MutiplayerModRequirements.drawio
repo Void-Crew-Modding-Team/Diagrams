@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-29T17:04:14.899Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0" etag="Y9TCP3lLedBxaLkgo1Kg" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-25T02:46:10.276Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0" etag="i7noVlB0qy1hoamsA6m8" version="23.1.2" type="github">
   <diagram name="Page-1" id="ecbrKntya6NLD0-ps1Tj">
     <mxGraphModel dx="1633" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -105,49 +105,49 @@
         <mxCell id="bKeGhtzXt_qyMH1p6n5Y-43" value="LeaveRoom()&lt;br&gt;FadeToBlack()&lt;br&gt;UnloadAllScenesExceptBootsrap()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
           <mxGeometry x="560" y="320" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lSPefAVaoUO7WisJL8J6-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bKeGhtzXt_qyMH1p6n5Y-45" target="lSPefAVaoUO7WisJL8J6-1">
+        <mxCell id="lSPefAVaoUO7WisJL8J6-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="bKeGhtzXt_qyMH1p6n5Y-45" target="lSPefAVaoUO7WisJL8J6-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bKeGhtzXt_qyMH1p6n5Y-45" value="PhotonService&lt;br&gt;.JoinRoom(string,string)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
           <mxGeometry x="560" y="440" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lSPefAVaoUO7WisJL8J6-1" value="NetworkingClient&lt;br&gt;.OnRoomJoin(RoomParams)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+        <mxCell id="lSPefAVaoUO7WisJL8J6-1" value="NetworkingClient&lt;br&gt;.OnRoomJoin(RoomParams)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
           <mxGeometry x="560" y="560" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lSPefAVaoUO7WisJL8J6-3" value="Intercept Room Params and modify Player properties?" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lSPefAVaoUO7WisJL8J6-3" value="Intercept Room Params and modify Player properties?&lt;br&gt;-Does not send" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="520" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lSPefAVaoUO7WisJL8J6-5" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lSPefAVaoUO7WisJL8J6-3" target="lSPefAVaoUO7WisJL8J6-1">
+        <mxCell id="lSPefAVaoUO7WisJL8J6-5" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="lSPefAVaoUO7WisJL8J6-3" target="lSPefAVaoUO7WisJL8J6-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="450" y="559" as="sourcePoint" />
             <mxPoint x="510" y="559" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lSPefAVaoUO7WisJL8J6-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lSPefAVaoUO7WisJL8J6-7" target="lSPefAVaoUO7WisJL8J6-8">
+        <mxCell id="lSPefAVaoUO7WisJL8J6-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lSPefAVaoUO7WisJL8J6-7" target="lSPefAVaoUO7WisJL8J6-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lSPefAVaoUO7WisJL8J6-7" value="IInRoomCallbacks&lt;br&gt;.OnPlayerEnteredRoom" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0DBA24;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="lSPefAVaoUO7WisJL8J6-7" value="IInRoomCallbacks&lt;br&gt;.OnPlayerEnteredRoom" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0DBA24;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="880" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lSPefAVaoUO7WisJL8J6-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lSPefAVaoUO7WisJL8J6-8" target="lSPefAVaoUO7WisJL8J6-10">
+        <mxCell id="lSPefAVaoUO7WisJL8J6-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lSPefAVaoUO7WisJL8J6-8" target="lSPefAVaoUO7WisJL8J6-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lSPefAVaoUO7WisJL8J6-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lSPefAVaoUO7WisJL8J6-8" target="lSPefAVaoUO7WisJL8J6-12">
+        <mxCell id="lSPefAVaoUO7WisJL8J6-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lSPefAVaoUO7WisJL8J6-8" target="lSPefAVaoUO7WisJL8J6-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lSPefAVaoUO7WisJL8J6-8" value="Check Player Properties" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+        <mxCell id="lSPefAVaoUO7WisJL8J6-8" value="Check Player Properties" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
           <mxGeometry x="880" y="200" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lSPefAVaoUO7WisJL8J6-10" value="Kick Player if Properties Are Lacking" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+        <mxCell id="lSPefAVaoUO7WisJL8J6-10" value="Kick Player if Properties Are Lacking" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
           <mxGeometry x="1080" y="200" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lSPefAVaoUO7WisJL8J6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lSPefAVaoUO7WisJL8J6-12" target="lSPefAVaoUO7WisJL8J6-14">
+        <mxCell id="lSPefAVaoUO7WisJL8J6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lSPefAVaoUO7WisJL8J6-12" target="lSPefAVaoUO7WisJL8J6-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lSPefAVaoUO7WisJL8J6-12" value="Allow Player to join" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+        <mxCell id="lSPefAVaoUO7WisJL8J6-12" value="Allow Player to join" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
           <mxGeometry x="880" y="320" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lSPefAVaoUO7WisJL8J6-14" value="Event for mods to know if player with given mod have joined" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+        <mxCell id="lSPefAVaoUO7WisJL8J6-14" value="Event for mods to know if player with given mod have joined" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
           <mxGeometry x="880" y="440" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
