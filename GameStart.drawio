@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2024-02-25T00:38:52.199Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0" version="23.1.2" etag="PP4FFm_SI8WOPU8efJm4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-25T00:55:10.383Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0" etag="NhIon5R7tupwCBKJqVt_" version="23.1.2" type="github">
   <diagram name="Page-1" id="zsTWLuxtlyV3KV-3dox_">
-    <mxGraphModel>
+    <mxGraphModel dx="1633" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ij9b3C6Ny_NXDxy3Uv4R-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ij9b3C6Ny_NXDxy3Uv4R-1" target="ij9b3C6Ny_NXDxy3Uv4R-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ij9b3C6Ny_NXDxy3Uv4R-1" value="Game Launch" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0DBA24;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ij9b3C6Ny_NXDxy3Uv4R-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ij9b3C6Ny_NXDxy3Uv4R-2" target="ij9b3C6Ny_NXDxy3Uv4R-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ij9b3C6Ny_NXDxy3Uv4R-2" value="GS Machine Initialized. Probably starts in preconfigured GSLoading state." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ij9b3C6Ny_NXDxy3Uv4R-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ij9b3C6Ny_NXDxy3Uv4R-4" target="ij9b3C6Ny_NXDxy3Uv4R-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ij9b3C6Ny_NXDxy3Uv4R-4" value="Determines Intro enabled, Connects to photon and starts Intro cutscenes." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ij9b3C6Ny_NXDxy3Uv4R-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ij9b3C6Ny_NXDxy3Uv4R-6" target="ij9b3C6Ny_NXDxy3Uv4R-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ij9b3C6Ny_NXDxy3Uv4R-6" value="On intro finish, Starts GSLicenseAgreement" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ij9b3C6Ny_NXDxy3Uv4R-8" value="If License Agreement accepted, Moves to main menu" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="520" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
