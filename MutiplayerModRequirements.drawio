@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-25T02:46:10.276Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0" etag="i7noVlB0qy1hoamsA6m8" version="23.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-11T00:45:05.755Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0" etag="MTKDebP7IoicCQ5lydN3" version="23.1.2" type="github">
   <diagram name="Page-1" id="ecbrKntya6NLD0-ps1Tj">
-    <mxGraphModel dx="1633" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1393" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,22 +8,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bKeGhtzXt_qyMH1p6n5Y-1" value="UI.Matchmaking&lt;br&gt;MatchmakingTerminal" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0DBA24;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bKeGhtzXt_qyMH1p6n5Y-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bKeGhtzXt_qyMH1p6n5Y-2" target="bKeGhtzXt_qyMH1p6n5Y-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bKeGhtzXt_qyMH1p6n5Y-2" value="User clicks join selected button" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
-          <mxGeometry x="40" y="120" width="120" height="80" as="geometry" />
+          <mxGeometry x="40" y="160" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bKeGhtzXt_qyMH1p6n5Y-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bKeGhtzXt_qyMH1p6n5Y-3" target="bKeGhtzXt_qyMH1p6n5Y-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bKeGhtzXt_qyMH1p6n5Y-3" value="MMTerm.JoinSelected" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
-          <mxGeometry x="40" y="240" width="120" height="80" as="geometry" />
+        <mxCell id="bKeGhtzXt_qyMH1p6n5Y-3" value="MMTerm.JoinRequested" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
+          <mxGeometry x="40" y="280" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bKeGhtzXt_qyMH1p6n5Y-4" value="Update Lobby List&lt;br&gt;&lt;br&gt;Fail Popup" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
-          <mxGeometry x="280" y="360" width="120" height="80" as="geometry" />
+          <mxGeometry x="280" y="400" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bKeGhtzXt_qyMH1p6n5Y-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bKeGhtzXt_qyMH1p6n5Y-8" target="bKeGhtzXt_qyMH1p6n5Y-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -37,21 +37,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bKeGhtzXt_qyMH1p6n5Y-8" value="JoinGame" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
-          <mxGeometry x="40" y="360" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="bKeGhtzXt_qyMH1p6n5Y-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="bKeGhtzXt_qyMH1p6n5Y-9" target="bKeGhtzXt_qyMH1p6n5Y-34" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="40" y="400" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bKeGhtzXt_qyMH1p6n5Y-9" value="SteamMatchmaking&lt;br&gt;.JoinLobby" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
-          <mxGeometry x="40" y="480" width="120" height="80" as="geometry" />
+          <mxGeometry x="40" y="520" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="bKeGhtzXt_qyMH1p6n5Y-16" value="Insert Client-Side Mod Check Here" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="250" y="260" width="120" height="80" as="geometry" />
+        <mxCell id="bKeGhtzXt_qyMH1p6n5Y-16" value="Client-Side Mod Check. Posts Fail Popup" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="280" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bKeGhtzXt_qyMH1p6n5Y-19" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="320" as="sourcePoint" />
-            <mxPoint x="150" y="370" as="targetPoint" />
+            <mxPoint x="230" y="340" as="sourcePoint" />
+            <mxPoint x="110" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bKeGhtzXt_qyMH1p6n5Y-20" value="Network Classes" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -72,62 +69,32 @@
         <mxCell id="bKeGhtzXt_qyMH1p6n5Y-30" value="SteamMatchmaking" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="bKeGhtzXt_qyMH1p6n5Y-20" vertex="1">
           <mxGeometry y="150" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bKeGhtzXt_qyMH1p6n5Y-34" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF8000;strokeColor=#B20000;fontColor=#ffffff;direction=east;" parent="1" vertex="1">
-          <mxGeometry x="40" y="600" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="bKeGhtzXt_qyMH1p6n5Y-37" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="800" y="832" as="sourcePoint" />
-            <mxPoint x="800" as="targetPoint" />
+            <mxPoint x="919" y="832" as="sourcePoint" />
+            <mxPoint x="919" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bKeGhtzXt_qyMH1p6n5Y-38" value="Client" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="595" y="18" width="50" height="30" as="geometry" />
+          <mxGeometry x="714" y="18" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bKeGhtzXt_qyMH1p6n5Y-39" value="Host" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="920" y="10" width="50" height="30" as="geometry" />
+          <mxGeometry x="1039" y="10" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bKeGhtzXt_qyMH1p6n5Y-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="bKeGhtzXt_qyMH1p6n5Y-40" target="bKeGhtzXt_qyMH1p6n5Y-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bKeGhtzXt_qyMH1p6n5Y-40" value="SteamService&lt;br&gt;.OnLobbyEntered()" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0DBA24;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="560" y="80" width="120" height="60" as="geometry" />
+        <mxCell id="bKeGhtzXt_qyMH1p6n5Y-40" value="IInRoomCallbacks&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;.OnPlayerEnteredRoom" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0DBA24;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="679" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bKeGhtzXt_qyMH1p6n5Y-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bKeGhtzXt_qyMH1p6n5Y-41" target="bKeGhtzXt_qyMH1p6n5Y-43" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="bKeGhtzXt_qyMH1p6n5Y-41" value="Send Local Client &lt;br&gt;Mod List to Joining Client" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
+          <mxGeometry x="679" y="200" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="bKeGhtzXt_qyMH1p6n5Y-41" value="GSJoinExternalGame&lt;br&gt;.OnEnter(IState)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
-          <mxGeometry x="560" y="200" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="bKeGhtzXt_qyMH1p6n5Y-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="bKeGhtzXt_qyMH1p6n5Y-43" target="bKeGhtzXt_qyMH1p6n5Y-45" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bKeGhtzXt_qyMH1p6n5Y-43" value="LeaveRoom()&lt;br&gt;FadeToBlack()&lt;br&gt;UnloadAllScenesExceptBootsrap()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
-          <mxGeometry x="560" y="320" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="lSPefAVaoUO7WisJL8J6-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="bKeGhtzXt_qyMH1p6n5Y-45" target="lSPefAVaoUO7WisJL8J6-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bKeGhtzXt_qyMH1p6n5Y-45" value="PhotonService&lt;br&gt;.JoinRoom(string,string)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
-          <mxGeometry x="560" y="440" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="lSPefAVaoUO7WisJL8J6-1" value="NetworkingClient&lt;br&gt;.OnRoomJoin(RoomParams)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
-          <mxGeometry x="560" y="560" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="lSPefAVaoUO7WisJL8J6-3" value="Intercept Room Params and modify Player properties?&lt;br&gt;-Does not send" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="520" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="lSPefAVaoUO7WisJL8J6-5" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="lSPefAVaoUO7WisJL8J6-3" target="lSPefAVaoUO7WisJL8J6-1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="450" y="559" as="sourcePoint" />
-            <mxPoint x="510" y="559" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lSPefAVaoUO7WisJL8J6-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lSPefAVaoUO7WisJL8J6-7" target="lSPefAVaoUO7WisJL8J6-8" edge="1">
+        <mxCell id="lSPefAVaoUO7WisJL8J6-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lSPefAVaoUO7WisJL8J6-7" target="j-F2j4Em2MocW92o15qn-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lSPefAVaoUO7WisJL8J6-7" value="IInRoomCallbacks&lt;br&gt;.OnPlayerEnteredRoom" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0DBA24;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="880" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="999" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lSPefAVaoUO7WisJL8J6-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lSPefAVaoUO7WisJL8J6-8" target="lSPefAVaoUO7WisJL8J6-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -136,19 +103,82 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lSPefAVaoUO7WisJL8J6-8" value="Check Player Properties" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
-          <mxGeometry x="880" y="200" width="120" height="80" as="geometry" />
+          <mxGeometry x="999" y="320" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lSPefAVaoUO7WisJL8J6-10" value="Kick Player if Properties Are Lacking" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
-          <mxGeometry x="1080" y="200" width="120" height="80" as="geometry" />
+          <mxGeometry x="1160" y="320" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lSPefAVaoUO7WisJL8J6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lSPefAVaoUO7WisJL8J6-12" target="lSPefAVaoUO7WisJL8J6-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lSPefAVaoUO7WisJL8J6-12" value="Allow Player to join" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
-          <mxGeometry x="880" y="320" width="120" height="80" as="geometry" />
+          <mxGeometry x="999" y="440" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lSPefAVaoUO7WisJL8J6-14" value="Event for mods to know if player with given mod have joined" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
-          <mxGeometry x="880" y="440" width="120" height="80" as="geometry" />
+        <mxCell id="lSPefAVaoUO7WisJL8J6-14" value="Event for mods to know if player with given mod has joined" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
+          <mxGeometry x="999" y="560" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j-F2j4Em2MocW92o15qn-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="j-F2j4Em2MocW92o15qn-2" target="j-F2j4Em2MocW92o15qn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j-F2j4Em2MocW92o15qn-2" value="ILobbyCallbacks&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;.OnJoinedLobby" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0DBA24;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="679" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-F2j4Em2MocW92o15qn-3" value="Perform Client Mods Check.&lt;br&gt;Send Local Client &lt;br&gt;Mod List to Other Clients and Host." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="679" y="440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j-F2j4Em2MocW92o15qn-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="j-F2j4Em2MocW92o15qn-4" target="j-F2j4Em2MocW92o15qn-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j-F2j4Em2MocW92o15qn-4" value="IInRoomCallbacks&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;.OnPlayerLeftRoom" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0DBA24;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="520" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-F2j4Em2MocW92o15qn-5" value="Clear Cached Mod list of Leaving Client." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="520" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j-F2j4Em2MocW92o15qn-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="j-F2j4Em2MocW92o15qn-7" target="j-F2j4Em2MocW92o15qn-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j-F2j4Em2MocW92o15qn-7" value="Send Mod List to Client/Host" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0DBA24;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="600" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-F2j4Em2MocW92o15qn-8" value="Client Receives Mod List and Adds to Cache." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="600" y="680" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j-F2j4Em2MocW92o15qn-12" value="Pre-Join" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="65" y="18" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j-F2j4Em2MocW92o15qn-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="j-F2j4Em2MocW92o15qn-14" target="j-F2j4Em2MocW92o15qn-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j-F2j4Em2MocW92o15qn-14" value="ILobbyCallbacks&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;.OnLeftLobby" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0DBA24;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="520" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-F2j4Em2MocW92o15qn-15" value="Clear all cached mod lists." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="520" y="440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j-F2j4Em2MocW92o15qn-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="j-F2j4Em2MocW92o15qn-17" target="j-F2j4Em2MocW92o15qn-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j-F2j4Em2MocW92o15qn-17" value="Lobby Creation" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0DBA24;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-F2j4Em2MocW92o15qn-18" value="Intercept lobby creation properties, Insert mod list." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j-F2j4Em2MocW92o15qn-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="j-F2j4Em2MocW92o15qn-20" target="j-F2j4Em2MocW92o15qn-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j-F2j4Em2MocW92o15qn-20" value="On Host Changed" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0DBA24;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="999" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-F2j4Em2MocW92o15qn-21" value="If local client is host, Update lobby properties." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="999" y="800" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j-F2j4Em2MocW92o15qn-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="j-F2j4Em2MocW92o15qn-23" target="lSPefAVaoUO7WisJL8J6-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j-F2j4Em2MocW92o15qn-23" value="Wait 10 seconds, or until player mod list is received. &lt;br&gt;(50 times, .2 second wait time)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="999" y="200" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
